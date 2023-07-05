@@ -1,19 +1,9 @@
-// import { useLocation, useNavigate } from "react-router-dom";
+const Nav = () => {
+  return (
+    <nav>
+      <h1>React hooks in detpth</h1>
+    </nav>
+  );
+}
 
-// export default function () {
-//   const { pathname } = useLocation();
-//   const navigate = useNavigate();
-//   return (
-//     <nav>
-//       <h1>Intermediate React v5</h1>
-//       <select
-//         value={pathname}
-//         onChange={(e) => {
-//           navigate(e.target.value);
-//         }}
-//       >
-//         <option value="/">Home</option>
-//       </select>
-//     </nav>
-//   );
-// }
+export default Nav;
