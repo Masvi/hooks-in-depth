@@ -2,7 +2,7 @@ import { memo, useEffect, useRef } from "react";
 import * as THREE from "three";
 
 const UseRefMemo = memo(function Test() {
-  const renderTarget = useRef();
+  const renderTarget = useRef(null);
 
   useEffect(() => {
     let continueRendering = true;
