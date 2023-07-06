@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
-import Nav from './Nav';
+import UseRef from "./routes/UseRef";
+import Nav from "./Nav";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/useRef" element={<UseRef />} />
       </Routes>
     </div>
   );
