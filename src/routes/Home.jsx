@@ -6,6 +6,9 @@ export default function Home() {
       <Link className="home-link" to="/useRef">
         useRef
       </Link>
+      <Link className="home-link" to="/useReducer">
+        useReducer
+      </Link>
     </div>
   );
 }
