@@ -9,6 +9,9 @@ export default function Home() {
       <Link className="home-link" to="/useReducer">
         useReducer
       </Link>
+      <Link className="home-link" to="/useMemo">
+        useMemo
+      </Link>
     </div>
   );
 }

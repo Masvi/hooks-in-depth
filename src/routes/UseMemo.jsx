@@ -1,10 +1,15 @@
 import { useEffect, useState, useMemo } from 'react';
-import expensiveMathOperation from './expensiveMathOperation';
+import fibonacci from '../utils/fibonacci';
 
 export default function Home() {
   const [count, setCount] = useState(35);
   const [left, setLeft] = useState(0);
-  const value = useMemo(() => expensiveMathOperation(count), [count]);
+
+  /**
+   * useMemo caches the fibonnacci (a very expenssive calculation)
+   * so it will be recalculated only when count be incremented
+   *  */ 
+  const value = useMemo(() => fibonacci(count), [count]);
 
   useEffect(() => {
     requestAnimationFrame(animate);
