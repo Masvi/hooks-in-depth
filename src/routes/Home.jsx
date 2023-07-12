@@ -12,6 +12,9 @@ export default function Home() {
       <Link className="home-link" to="/useMemo">
         useMemo
       </Link>
+      <Link className="home-link" to="/useCallback">
+        useCallback
+      </Link>
     </div>
   );
 }

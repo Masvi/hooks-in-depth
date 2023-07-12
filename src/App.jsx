@@ -3,6 +3,7 @@ import Home from "./routes/Home";
 import UseRef from "./routes/UseRef";
 import UseReducerComponent from "./routes/UseReducer";
 import UseMemo from "./routes/UseMemo";
+import UseCallback from "./routes/UseCallback";
 
 import Nav from "./Nav";
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/useRef" element={<UseRef />} />
         <Route path="/useReducer" element={<UseReducerComponent />} />
         <Route path="/useMemo" element={<UseMemo />} />
+        <Route path="/useCallback" element={<UseCallback />} />
       </Routes>
     </div>
   );
