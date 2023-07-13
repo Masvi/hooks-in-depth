@@ -4,6 +4,7 @@ import UseRef from "./routes/UseRef";
 import UseReducerComponent from "./routes/UseReducer";
 import UseMemo from "./routes/UseMemo";
 import UseCallback from "./routes/UseCallback";
+import UseLayoutEffect from "./routes/UseLayoutEffect";
 
 import Nav from "./Nav";
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/useReducer" element={<UseReducerComponent />} />
         <Route path="/useMemo" element={<UseMemo />} />
         <Route path="/useCallback" element={<UseCallback />} />
+        <Route path="/useLayoutEffect" element={<UseLayoutEffect />} />
       </Routes>
     </div>
   );

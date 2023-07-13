@@ -15,6 +15,9 @@ export default function Home() {
       <Link className="home-link" to="/useCallback">
         useCallback
       </Link>
+      <Link className="home-link" to="/useLayoutEffect">
+        useLayoutEffect
+      </Link>
     </div>
   );
 }
