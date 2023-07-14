@@ -18,6 +18,9 @@ export default function Home() {
       <Link className="home-link" to="/useLayoutEffect">
         useLayoutEffect
       </Link>
+      <Link className="home-link" to="/useId">
+        useId
+      </Link>
     </div>
   );
 }
